@@ -1,0 +1,59 @@
+/* Materialize specific styles */
+
+/* Navbar */
+nav, .page-footer {
+    color: #fff;
+    background-color: #03a9f4;
+}
+
+.brand-logo h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    display: inline;
+    padding: 1em;
+}
+
+.sidenav-overlay {
+    z-index: 900;
+}
+
+
+/* Footer */
+.page-footer {
+    padding: 0;
+}
+
+.page-footer .footer-copyright {
+    color: inherit;
+    background-color: inherit;
+}
+
+.page-footer > .container > .row {
+    margin-bottom: 0;
+}
+
+
+/* Page */
+section.page-section {
+    padding-top: 4em;
+}
+
+
+/* Typography */
+p {
+    line-height: 2em;
+}
+
+#header header h3 {
+    font-size: 1.5em;
+}
+
+
+/* Miscellaneous */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
